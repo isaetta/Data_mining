@@ -17,16 +17,22 @@ funFolder = fullfile(mainFolder,'\01_ML\function');
 % Output = array [Nx1] that contains max value for each N-run of test 
 % 
 % i)    Spostamenti sommità serbatoio:
-%       - verticali ;  - orizzontali
+%       - verticali T1-T2 ;  - orizzontali T3 -T4
 % ii)   Spostamenti ID sommità serbatoio - base serbatoio:
 %       - verticali;   - orizzontali
 % iii)  Taglio al piano
-% iv)   Taglio base serbatoio (ridistribuzione forza taglio)
+% iv)?   Taglio base serbatoio (ridistribuzione forza taglio)
+%%
 % v)    Spettro accelerazione al piano
+[outFloorSpectra] = f_spettro_acc_piani(nameAccFile)
+%%
 % vi)   Spettro spostamento al piano
 % vii)  PGA segnale
 % viii) Sa(T1) - Sa(T2) - Sa(T3)
 % ix)   Sd(T1) - Sd(T2) - Sd(T3)
+% x)    Arias Intensity AI
 
 %% SCATTER of DATA COLLECT
-
+% 8 TH8 - 8 storie sismiche
+% TH8_25% -- > max spost.serbatoio 
+%               Sa(T1) [8x1] 

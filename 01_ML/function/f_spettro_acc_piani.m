@@ -1,5 +1,5 @@
-nameAccFile = '03_ACC_8_EC_T1_C_25%_compD_SI';
-function [outFloorSpectra] = f_spettro_acc_piani(nameAccFile,inputArg2)
+% nameAccFile = '03_ACC_8_EC_T1_C_25%_compD_SI';
+function [outFloorSpectra] = f_spettro_acc_piani(nameAccFile)
 % FLOOR SPECTRAL ACCELERATION
 % Input: seismic recording at floor level
 % Output: max Sa of floor level
@@ -37,5 +37,6 @@ disp_in = 0; vel_in = 0; acc = level_1.base.meanAcc;
 
 
 outFloorSpectra = f_acc_spectra(t,acc,disp_in,vel_in); 
+
 end
 
