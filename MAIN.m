@@ -1,6 +1,14 @@
 %% MAIN - DATA MINING
 % Code for identifyng possible correlations inside acquired data
 
+%% GLOBAL ENVIRONMENT
+global g mainFolder dataFolder funFolder Fs
+g = 9.816; 
+Fs = 256; %[Hz]
+% to change locally
+mainFolder = 'D:\Dati\GoogleDrive_Uni_DD\GIT\Project_SPIF\Data_mining';
+dataFolder = fullfile(mainFolder,'\00_Data\01_Seismic');
+funFolder = fullfile(mainFolder,'\01_ML\function');
 %% RUN of DATA
 % a) SEISMIC
 % b) RANDOM
