@@ -1,0 +1,79 @@
+MARKER	notes	elevation
+1	ST - ref.	0.00
+2	ST - ref.	0.00
+3	ST - ref.	0.00
+4	RC slab - W	0.56
+5	RC slab - center	0.56
+6	RC slab - E	0.56
+7	Pipe POS 1 - under the flange	0.84
+8	Pipe POS 1 - above the flange	1.16
+9	Pipe POS 1 - above the plate	1.60
+10	on conveyor W	1.76
+11	on conveyor E	1.76
+12	Pipe POS 2 - next to elbow NW	3.00
+13	Pipe POS 2 - next to elbow SE	3.00
+14	Pipe POS 5	3.16
+15	Pipe POS 3	3.16
+16	floor 1 - column NW	3.44
+17	floor 1 -beam - W	3.44
+18	floor 1 -beam - center	3.44
+19	floor 1 -beam - E	3.44
+20	floor 1 - column NE	3.44
+21	on internal beam - W	3.48
+22	on internal center beam - N	3.48
+23	on internal center beam - center	3.48
+24	on internal center beam - S	3.48
+25	on internal beam - E	3.48
+26	floor 1 - column SE	3.52
+27	Pipe POS 1 - next to Hilti support	3.89
+28	on SDOF12	4.04
+29	Pipe POS 1 - next to elbow	4.19
+30	Tank 1 - base	4.22
+31	Tank 2 - base	4.50
+32	Tank 2 - center	5.07
+33	Tank 1 - center	5.10
+34	Pipe POS 4 - next to elbow W 	5.22
+35	Pipe POS 4 - next to elbow E 	5.21
+36	Tank 3 - top	5.51
+37	Pipe POS 6 - center	5.78
+38	Pipe POS 6 - next to Tank 2	5.87
+39	Tank 1 - top	6.01
+40	Pipe POS 6 - vert. pipe	6.22
+41	Pipe POS 4 - next to floor 2	6.41
+42	floor 2 - column NW	6.60
+43	floor 2 -beam - W	6.58
+44	floor 2 -beam - center	6.58
+45	floor 2 -beam - E	6.58
+46	floor 2 - column NE	6.60
+47	floor 2 - column SE	6.62
+48	on SDOF21	6.85
+49	Tank 4 - N base	6.97
+50	Tank 3 - W	7.37
+51	Tank 3 - E	7.39
+52	Pipe POS 7	7.37
+53	Tank 4 - N	7.37
+54	Tank 4 - S	7.38
+55	Pipe POS 10 - base	8.04
+56	Pipe POS 10 - top	9.10
+57	Pipe POS 9 - center pipe W	9.23
+58	Pipe POS 9 - pipe N - W	9.29
+59	Pipe POS 9 - pipe N - center	9.30
+60	Pipe POS 9 - pipe N - E	9.30
+61	floor 3 - column NW	9.69
+62	floor 3 -beam - W	9.69
+63	floor 3 -beam - center	9.69
+64	floor 3 -beam - E	9.69
+65	floor 3 - column NE	9.69
+66	floor 3 - column SE	9.73
+67	on SDOF32	10.38
+68	DN80 N.1 rack N	10.50
+69	DN80 N.2 rack N	10.50
+70	DN80 N.3 rack N	10.50
+71	DN80 N.4 rack N	10.50
+72	rack N	10.68
+73	DN80 N.1 rack E	10.69
+74	DN80 N.2 rack E	10.69
+75	DN80 N.3 rack E	10.69
+76	DN80 N.4 rack E	10.69
+77	rack E	10.86
+78	Cabinet	
