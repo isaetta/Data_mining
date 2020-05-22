@@ -272,7 +272,7 @@ for ii=1:length(listOfFiles)
     %% ACCELERAZIONI MEDIE AI PIANI
     [tagliMassimi] = fun_accFloor(datiG);
     matriceTagliMassimi(ii,:) = tagliMassimi;
-
+    
     cd(dataIndex)
 
     %% PLOT
@@ -712,4 +712,14 @@ clearvars -except plotFlag ii matriceTagliMassimi dataIndex listOfFiles
 end
 
 cd(dataIndex);
-save('MatriceTagliMassimi.mat','matriceTagliMassimi');
+%% CREO MATRICE TAGLI MASSIMI
+matriceTMax.V32 = matriceTagliMassimi(:,1);
+matriceTMax.V23 = matriceTagliMassimi(:,2);
+matriceTMax.V12 = matriceTagliMassimi(:,3);
+matriceTMax.V01 = matriceTagliMassimi(:,4);
+matriceTMax.V30 = matriceTagliMassimi(:,5);
+matriceTMax.Vs1 = matriceTagliMassimi(:,6);
+matriceTMax.Vs2 = matriceTagliMassimi(:,7);
+    
+save('varTagliMassimi.mat','matriceTMax');
+save('matriceTagliMassimi.mat','matriceTagliMassimi');
