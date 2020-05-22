@@ -1,0 +1,123 @@
+CH	trans factor	units	range	descrizione
+1	1017	mV/g	2g	A1 ST
+2	1005.1	mV/g	2g	A2 RC slab NE X
+3	1014.8	mV/g	2g	A2 RC slab NE Y
+4	998.4	mV/g	2g	A3 RC slab SW X
+5	985.7	mV/g	2g	A3 RC slab SW Y
+6	1017	mV/g	2g	A4 conveyor X
+7	999.8	mV/g	2g	A5 floor1 column SE X
+8	1004.6	mV/g	2g	A5 floor1 column SE Y
+9	992.2	mV/g	2g	A6 floor1 column NE X
+10	987.2	mV/g	2g	A6 floor1 column NE Y
+11	998.5	mV/g	2g	A7 floor1 column NW X
+12	1001.6	mV/g	2g	A7 floor1 column NW Y
+13	978.1	mV/g	2g	A8 Lprofile footing tank 1 X
+14	978.6	mV/g	2g	A8 Lprofile footing tank 1 Z
+15	974.9	mV/g	2g	A9 tank 1 h CM X
+16	986.3	mV/g	2g	A9 tank 1 h CM Y
+17	1005	mV/g	2g	A10 SDOF12 X
+18	1014.9	mV/g	2g	A11 Lprofile footing tank 2 X
+19	991.5	mV/g	2g	A11 Lprofile footing tank 2 Z
+20	1000.2	mV/g	2g	A12 tank 2 h CM X
+21	993.9	mV/g	2g	A12 tank 2 h CM Y
+22	1013	mV/g	2g	A13 cabinet X
+23	991.8	mV/g	2g	A14 floor2 column SE X
+24	994.7	mV/g	2g	A14 floor2 column SE Y
+25	1003	mV/g	2g	A15 floor2 column NE X
+26	996.7	mV/g	2g	A15 floor2 column NE Y
+27	1000.2	mV/g	2g	A16 floor2 column NW X
+28	987.7	mV/g	2g	A16 floor2 column NW Y
+29	1003.6	mV/g	2g	A17 tank 3 X
+30	1002.7	mV/g	2g	A17 tank 3 Y
+31	1007.1	mV/g	2g	A18 tank 4 X
+32	986.2	mV/g	2g	A18 tank 4 Y
+33	1014	mV/g	2g	A19 SDOF21 X
+34	333.3	mV/g	6g	A20 floor3 column SE X
+35	334.4	mV/g	6g	A20 floor3 column SE Y
+36  1       mV/g    0   canale non funzionante acc.
+37	343	mV/g	6g	A21 floor3 column NE Y
+38	328.9	mV/g	6g	A22 floor3 column NW X
+39	341.2	mV/g	6g	A22 floor3 column NW Y
+40	328.4	mV/g	6g	A23 SDOF32 X
+41	1011.7	mV/g	2g	A24 DN80 n2 dirX-rackE side-X
+42	341.6	mV/g	6g	A25 DN80 n1 dirX-rackW side-X
+43	344.5	mV/g	6g	A25 DN80 n1 dirX-rackW side-Y
+44	340.3	mV/g	6g	A25 DN80 n1 dirX-rackW side-Z
+45	331.7	mV/g	6g	A26 DN80 n3 dirY-rackN side-X
+46	335.5	mV/g	6g	A26 DN80 n3 dirY-rackN side-Y
+47	329	mV/g	6g	A26 DN80 n3 dirY-rackN side-Z
+48	336	mV/g	6g	A27 DN80 n3 dirY-center pipe-X
+49	330.3	mV/g	6g	A27 DN80 n3 dirY-center pipe-Y
+50	336	mV/g	6g	A27 DN80 n3 dirY-center pipe-Z
+51	336.8	mV/g	6g	A28 rackN X
+52	336.5	mV/g	6g	A28 rackN Y
+53	330.3	mV/g	6g	A28 rackN Z
+54	330.6	mV/g	6g	A29 rackE X
+55	337.7	mV/g	6g	A21 floor3 column NE X
+56  1       mV/g    0   canale vuoto per acc.
+57	1	Alim.	0	ALIM1-Pot.ch 58:72
+58	25	mm/V	25mm	T11 Tast 25 RC slab/ST NE X
+59	25	mm/V	25mm	T12 Tast 25 RC slab/ST NE Y
+60	25	mm/V	25mm	T13 Tast 25 RC slab/ST SW Y
+61	25	mm/V	25mm	T14 Tast 25 RC slab/ST SW X
+62	25	mm/V	25mm	T1 Tast 25 RC slab/ST NE Z
+63	25	mm/V	25mm	T2 Tast 25 RC slab/ST SW Z
+64	25	mm/V	25mm	T3 Tast 25 RC slab/col. NE-corner NE-Z
+65	50	mm/V	50mm	T4 Tast 50 RC slab/col. NE-corner SW-Z
+66	50	mm/V	50mm	T5 Tast 50 RC slab/col. NW-corner NW-Z
+67	25	mm/V	25mm	T6 Tast 25 RC slab/col. NW-corner SE-Z
+68	25	mm/V	25mm	T7 Tast 25 RC slab/col. SE-corner SE-Z
+69	50	mm/V	50mm	T8 Tast 50 RC slab/col. SE-corner NW-Z
+70	50	mm/V	50mm	T9 Tast 50 RC slab/col. SW-corner NE-Z
+71	25	mm/V	25mm	T10 Tast 25 RC slab/col. SW-corner SW-Z
+72	900	mm/V	900mm	PST Pot 900 ST/floor X
+73	1	Alim.	0	ALIM2-Pot.ch 74:88
+74	50	mm/V	50mm	P5 Pot 50 DN80 dirX/rackE X
+75	50	mm/V	50mm	P6 Pot 50 DN80 dirX/rackW X
+76	100	mm/V	100mm	P7 Pot 100 collar/rackN X
+77	25	mm/V	25mm	P8 Pot 25 rackN XZ
+78	25	mm/V	25mm	P9 Pot 25 pipe POS 1 0 Z
+79	25	mm/V	25mm	P10 Pot 25 pipe POS 1 120 Z
+80	25	mm/V	25mm	P11 Pot 25 pipe POS 1 240 Z
+81	25	mm/V	25mm	P12 Pot 25 pipe POS 5 0 Z
+82	25	mm/V	25mm	P13 Pot 25 pipe POS 5 120 Z
+83	25	mm/V	25mm	P14 Pot 25 pipe POS 5 240 Z
+84	25	mm/V	25mm	P15 Pot 25 pipe POS 4 0 Y
+85	25	mm/V	25mm	P16 Pot 25 pipe POS 4 120 Y
+86	25	mm/V	25mm	P17 Pot 25 pipe POS 4 240 Y
+87	25	mm/V	25mm	P18 Pot 25 pipe POS 6 0 Y
+88	25	mm/V	25mm	P19 Pot 25 pipe POS 6 120 Y
+89	25	mm/V	25mm	P20 Pot 25 pipe POS 6 240 Y
+90	367.5	unit/V	0	ReadOut Forza
+91	0.06	unit/V	0	ReadOut Spostamento
+92	7.845	unit/V	0	ReadOut Accelerazione
+93	5	bar/V	40bar	PRESS1 pipe POS 1
+94	5	bar/V	40bar	PRESS2 pipe POS 5
+95	5	bar/V	40bar	PRESS3 pipe POS 4
+96	5	bar/V	40bar	PRESS4 pipe POS 6
+97	1	Alim.	0	ALIM3-Pot.ch 89
+98  1   mm/V    0   canale vuoto per pot.
+99	120	ohm	120ohm	SG1 col.NE right Z
+100	120	ohm	120ohm	SG2 col.NE left Z
+101	120	ohm	120ohm	SG3 col.NW right Z
+102	120	ohm	120ohm	SG4 col.NW left Z
+103	120	ohm	120ohm	SG5 col.SE right Z
+104	120	ohm	120ohm	SG6 col.SE left Z
+105	120	ohm	120ohm	SG7 col.SW right Z
+106	120	ohm	120ohm	SG8 col.SW left Z
+107	120	ohm	120ohm	SG9 uplift bar N7 Z
+108	120	ohm	120ohm	SG10 uplift bar S7 Z
+109	120	ohm	120ohm	SG11 uplift bar N1 Z
+110	120	ohm	120ohm	SG12 uplift bar S1 Z
+111	120	ohm	120ohm	SG13 pipe POS 1 0 Z
+112	120	ohm	120ohm	SG14 pipe POS 1 120 Z
+113	120	ohm	120ohm	SG15 pipe POS 1 240 Z
+114	120	ohm	120ohm	SG16 pipe POS 5 0 Z
+115	120	ohm	120ohm	SG17 pipe POS 5 120 Z
+116	120	ohm	120ohm	SG18 pipe POS 5 240 Z
+117	120	ohm	120ohm	SG19 pipe POS 4 0 Y
+118	120	ohm	120ohm	SG20 pipe POS 4 120 Y
+119	120	ohm	120ohm	SG21 pipe POS 4 240 Y
+120	120	ohm	120ohm	SG22 pipe POS 6 0 Y
+121	120	ohm	120ohm	SG23 pipe POS 6 120 Y
+122	120	ohm	120ohm	SG24 pipe POS 6 240 Y
